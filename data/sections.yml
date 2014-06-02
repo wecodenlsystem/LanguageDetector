@@ -1,0 +1,620 @@
+control-character:
+    diap: [0, 31]
+    type: null
+    languages: null
+basic-latin:
+    diap: [32, 127]
+    type: alphabet
+    languages: [en, fi, it, es, sv, de, fr]
+latin-1-supplement:
+    diap: [128, 255]
+    type: null
+    languages: [fi, it, es, sv, de, fr]
+latin-extended-A:
+    diap: [256, 383]
+    type: alphabet
+    languages: [fi, fr]
+latin-extended-B:
+    diap: [384, 591]
+    type: alphabet
+    languages: null
+ipa-extensions:
+    diap: [592, 687]
+    type: alphabet
+    languages: null
+spacing-modifier-letters:
+    diap: [688, 767]
+    type: alphabet
+    languages: null
+combining-diacritical-marks:
+    diap: [768, 879]
+    type: alphabet
+    languages: null
+greek-coptic:
+    diap: [880, 1023]
+    type: alphabet
+    languages: null
+cyrillic:
+    diap: [1024, 1279]
+    type: alphabet
+    languages: [ru, uk, bg]
+cyrillic-supplement:
+    diap: [1280, 1327]
+    type: alphabet
+    languages: null
+armenian:
+    diap: [1328, 1423]
+    type: alphabet
+    languages: null
+hebrew:
+    diap: [1424, 1535]
+    type: alphabet
+    languages: null
+arabic:
+    diap: [1536, 1791]
+    type: alphabet
+    languages: null
+syrian:
+    diap: [1792, 1871]
+    type: alphabet
+    languages: null
+arabic-supplement:
+    diap: [1872, 1919]
+    type: alphabet
+    languages: null
+thaana:
+    diap: [1920, 1983]
+    type: alphabet
+    languages: null
+nko:
+    diap: [1984, 2047]
+    type: alphabet
+    languages: null
+samaritan:
+    diap: [2048, 2111]
+    type: alphabet
+    languages: null
+mandaic:
+    diap: [2112, 2143]
+    type: alphabet
+    languages: null
+arabic-extended-a:
+    diap: [2208, 2303]
+    type: alphabet
+    languages: null
+devanagari:
+    diap: [2304, 2431]
+    type: abugida
+    languages: null
+bengali:
+    diap: [2432, 2559]
+    type: abugida
+    languages: null
+gurmukhi:
+    diap: [2560, 2687]
+    type: abugida
+    languages: null
+gujarati:
+    diap: [2688, 2815]
+    type: abugida
+    languages: null
+oriya:
+    diap: [2816, 2943]
+    type: abugida
+    languages: null
+tamil:
+    diap: [2944, 3071]
+    type: abugida
+    languages: null
+telugu:
+    diap: [3072, 3199]
+    type: abugida
+    languages: null
+kannada:
+    diap: [3200, 3327]
+    type: abugida
+    languages: null
+malayalam:
+    diap: [3328, 3455]
+    type: abugida
+    languages: null
+sinhala:
+    diap: [3456, 3583]
+    type: abugida
+    languages: null
+thai:
+    diap: [3584, 3711]
+    type: abugida
+    languages: null
+lao:
+    diap: [3712, 3839]
+    type: abugida
+    languages: null
+tibetan:
+    diap: [3840, 4095]
+    type: abugida
+    languages: null
+myanmar:
+    diap: [4096, 4255]
+    type: abugida
+    languages: null
+georgian:
+    diap: [4256, 4351]
+    type: alphabet
+    languages: null
+hangul-jamo:
+    diap: [4352, 4607]
+    type: abugida
+    languages: null
+ethiopic:
+    diap: [4608, 4991]
+    type: abugida
+    languages: null
+ethiopic-supplement:
+    diap: [4992, 5023]
+    type: abugida
+    languages: null
+cherokee:
+    diap: [5024, 5119]
+    type: syllabary
+    languages: null
+unified-canadian-aboriginal-syllabics:
+    diap: [5120, 5759]
+    type: abugida
+    languages: null
+ogham:
+    diap: [5760, 5791]
+    type: alphabet
+    languages: null
+runic:
+    diap: [5792, 5887]
+    type: alphabet
+    languages: null
+tagalog:
+    diap: [5888, 5919]
+    type: abugida
+    languages: null
+hanunoo:
+    diap: [5920, 5951]
+    type: abugida
+    languages: null
+buhid:
+    diap: [5952, 5983]
+    type: abugida
+    languages: null
+tagbanwa:
+    diap: [5984, 6015]
+    type: abugida
+    languages: null
+khmer:
+    diap: [6016, 6143]
+    type: abugida
+    languages: null
+mongolian:
+    diap: [6144, 6319]
+    type: alphabet
+    languages: null
+unified-canadian-aboriginal-syllabics-extended:
+    diap: [6320, 6399]
+    type: abugida
+    languages: null
+limbu:
+    diap: [6400, 6479]
+    type: abugida
+    languages: null
+tai-le:
+    diap: [6480, 6527]
+    type: abugida
+    languages: null
+new-tai-lue:
+    diap: [6528, 6623]
+    type: alphabet
+    languages: null
+khmer-symbols:
+    diap: [6624, 6655]
+    type: null
+    languages: null
+buginese:
+    diap: [6656, 6687]
+    type: abugida
+    languages: null
+tai-tham:
+    diap: [6688, 6831]
+    type: abugida
+    languages: null
+balinese:
+    diap: [6912, 7047]
+    type: abugida
+    languages: null
+sundanese:
+    diap: [7040, 7103]
+    type: abugida
+    languages: null
+batak:
+    diap: [7104, 7167]
+    type: abugida
+    languages: null
+lepcha:
+    diap: [7168, 7247]
+    type: abugida
+    languages: null
+ol-chiki:
+    diap: [7248, 7295]
+    type: alphabet
+    languages: null
+sundanese-supplement:
+    diap: [7360, 7375]
+    type: abugida
+    languages: null
+vedic-extensions:
+    diap: [7376, 7423]
+    type: null
+    languages: null
+phonetic-extentions:
+    diap: [7424, 7551]
+    type: null
+    languages: null
+phonetic-extentions-supplement:
+    diap: [7552, 7615]
+    type: null
+    languages: null
+combining-diacritical-marks-supplement:
+    diap: [7616, 7679]
+    type: null
+    languages: null
+latin-extended-additional:
+    diap: [7680, 7935]
+    type: null
+    languages: null
+greek-extended:
+    diap: [7936, 8191]
+    type: null
+    languages: null
+general-punctuation:
+    diap: [8192, 8303]
+    type: null
+    languages: null
+superscripts-and-subscripts:
+    diap: [8304, 8351]
+    type: null
+    languages: null
+currency-symbols:
+    diap: [8352, 8399]
+    type: null
+    languages: null
+combining-diacritical-marks-for-symbols:
+    diap: [8400, 8447]
+    type: null
+    languages: null
+letterlike-symbols:
+    diap: [8448, 8527]
+    type: null
+    languages: null
+number-forms:
+    diap: [8528, 8591]
+    type: null
+    languages: null
+arrows:
+    diap: [8592, 8703]
+    type: null
+    languages: null
+mathematical-operators:
+    diap: [8704, 8959]
+    type: null
+    languages: null
+miscellaneous-technical:
+    diap: [8960, 9215]
+    type: null
+    languages: null
+control-pictures:
+    diap: [9216, 9279]
+    type: null
+    languages: null
+optical-character-recognition:
+    diap: [9280, 9311]
+    type: null
+    languages: null
+enclosed-alphanumerics:
+    diap: [9312, 9471]
+    type: null
+    languages: null
+box-drawing:
+    diap: [9472, 9599]
+    type: null
+    languages: null
+block-elements:
+    diap: [9600, 9631]
+    type: null
+    languages: null
+geometric-shapes:
+    diap: [9632, 9727]
+    type: null
+    languages: null
+miscellaneous-symbols:
+    diap: [9728, 9983]
+    type: null
+    languages: null
+dingbats:
+    diap: [9984, 10175]
+    type: null
+    languages: null
+miscellaneous-mathematical-symbols-a:
+    diap: [10176, 10223]
+    type: null
+    languages: null
+suplemental-arrows-a:
+    diap: [10224, 10239]
+    type: null
+    languages: null
+braille-patterns:
+    diap: [10240, 10495]
+    type: null
+    languages: null
+suplemental-arrows-b:
+    diap: [10496, 10623]
+    type: null
+    languages: null
+miscellaneous-mathematical-symbols-b:
+    diap: [10624, 10751]
+    type: null
+    languages: null
+supplemental-mathematical-operators:
+    diap: [10752, 11007]
+    type: null
+    languages: null
+miscellaneous-symbols-and-arrows:
+    diap: [11008, 11263]
+    type: null
+    languages: null
+glagolitic:
+    diap: [11264, 11359]
+    type: alphabet
+    languages: null
+latin-extended-c:
+    diap: [608, 639]
+    type: alphabet
+    languages: null
+coptic:
+    diap: [640, 767]
+    type: alphabet
+    languages: null
+georgian-supplement:
+    diap: [11520, 11567]
+    type: alphabet
+    languages: null
+tifinagh:
+    diap: [11568, 11647]
+    type: abjad
+    languages: null
+ethiopic-extended:
+    diap: [11648, 11743]
+    type: abugida
+    languages: null
+cyrillic-extended:
+    diap: [11744, 11775]
+    type: alphabet
+    languages: null
+supplemental-punctuation:
+    diap: [11776, 11903]
+    type: null
+    languages: null
+cjk-radicals-supplement:
+    diap: [11904, 12031]
+    type: null
+    languages: null
+kangxi-radicals:
+    diap: [12032, 12255]
+    type: null
+    languages: null
+ideographic-description-characters:
+    diap: [12272, 12287]
+    type: null
+    languages: null
+cjk-symbols-and-punctuation:
+    diap: [12288, 12351]
+    type: null
+    languages: null
+hiragana:
+    diap: [12352, 12447]
+    type: syllabary
+    languages: null
+katakana:
+    diap: [12448, 12543]
+    type: syllabary
+    languages: null
+bopomofo:
+    diap: [12544, 12591]
+    type: syllabary
+    languages: null
+hangul-compatibility-jamo:
+    diap: [12592, 12687]
+    type: syllabary
+    languages: null
+kanbun:
+    diap: [12688, 12703]
+    type: syllabary
+    languages: null
+bopomofo-extended:
+    diap: [12704, 12735]
+    type: syllabary
+    languages: null
+cjk-strokes:
+    diap: [12736, 12783]
+    type: syllabary
+    languages: null
+katakana-phonetic-extentions:
+    diap: [12784, 12799]
+    type: syllabary
+    languages: null
+enclosed-cjk-letters-and-months:
+    diap: [12800, 13055]
+    type: syllabary
+    languages: null
+cjk-compatibility:
+    diap: [13056, 13311]
+    type: syllabary
+    languages: null
+cjk-unified-ideographs-extension-a:
+    diap: [13312, 19903]
+    type: syllabary
+    languages: null
+yijing-hexagram-symbols:
+    diap: [19904, 19967]
+    type: syllabary
+    languages: null
+cjk-unified-ideographs:
+    diap: [19968, 40959]
+    type: syllabary
+    languages: null
+yi-syllables:
+    diap: [40960, 42127]
+    type: syllabary
+    languages: null
+yi-radicals:
+    diap: [42128, 42191]
+    type: syllabary
+    languages: null
+old-lisu-alphabet:
+    diap: [42240, 42559]
+    type: syllabary
+    languages: null
+ciryllic-extended-B:
+    diap: [42560, 42655]
+    type: alphabet
+    languages: null
+bamum:
+    diap: [42656, 42751]
+    type: semisyllabary
+    languages: null
+modifier-tone-letters:
+    diap: [42752, 42783]
+    type: null
+    languages: null
+latin-extended-d:
+    diap: [42784, 43007]
+    type: alphabet
+    languages: null
+syloty-nagri:
+    diap: [43008, 43055]
+    type: abugida
+    languages: null
+indian-numeric-character:
+    diap: [43056, 43071]
+    type: null
+    languages: null
+phags-pa:
+    diap: [43072, 43135]
+    type: abugida
+    languages: null
+saurashtra:
+    diap: [43136, 43231]
+    type: alphabet
+    languages: null
+devanagari-extended-characters:
+    diap: [43232, 43263]
+    type: abugida
+    languages: null
+kayah-li:
+    diap: [43264, 43311]
+    type: abugida
+    languages: null
+rejang:
+    diap: [43312, 43359]
+    type: abugida
+    languages: null
+hangul:
+    diap: [43360, 43391]
+    type: alphabet
+    languages: null
+javanese-alphabet:
+    diap: [43392, 43487]
+    type: abugida
+    languages: null
+cham-alphabet:
+    diap: [43520, 43615]
+    type: abugida
+    languages: null
+burmese-alphabet-extention-a:
+    diap: [43616, 43647]
+    type: abugida
+    languages: null
+tai-viet-alphabet:
+    diap: [43648, 43743]
+    type: abugida
+    languages: null
+meitei-language-extentions:
+    diap: [43744, 43775]
+    type: abugida
+    languages: null
+ethiopic-extended-a:
+    diap: [43776, 43823]
+    type: abugida
+    languages: null
+meitei-language:
+    diap: [43968, 44031]
+    type: null
+    languages: null
+hangul-syllables:
+    diap: [44032, 55215]
+    type: alphabet
+    languages: null
+high-surrogates:
+    diap: [55296, 56191]
+    type: null
+    languages: null
+high-private-use-surrogates:
+    diap: [56192, 56319]
+    type: null
+    languages: null
+low-surrogates:
+    diap: [56320, 57343]
+    type: null
+    languages: null
+private-use-area:
+    diap: [57344, 63743]
+    type: null
+    languages: null
+cjk-compatibility-ideographs:
+    diap: [63744, 64255]
+    type: null
+    languages: null
+alphabetic-presentation-forms:
+    diap: [64256, 64335]
+    type: null
+    languages: null
+arabic-presentation-forms-a:
+    diap: [64336, 65023]
+    type: null
+    languages: null
+variation-selectors:
+    diap: [65024, 65039]
+    type: null
+    languages: null
+vertical-forms:
+    diap: [65040, 65055]
+    type: null
+    languages: null
+combining-half-marks:
+    diap: [65056, 65071]
+    type: null
+    languages: null
+cjk-compatibility-forms:
+    diap: [65072, 65103]
+    type: null
+    languages: null
+small-form-variants:
+    diap: [65104, 65135]
+    type: null
+    languages: null
+arabic-presentation-forms-b:
+    diap: [65136, 65279]
+    type: null
+    languages: null
+halfwidth-and-fullwidth-forms:
+    diap: [65280, 65519]
+    type: null
+    languages: null
+specials:
+    diap: [65520, 65535]
+    type: null
+    languages: null

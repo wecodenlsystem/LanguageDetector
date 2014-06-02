@@ -1,0 +1,13 @@
+# Composer files
+/composer.phar
+/composer.lock
+/vendor/
+
+# Dictionaries
+/data/dictionary/*
+!/data/dictionary/.gitkeep
+
+# Other files
+/.idea/
+/test.php
+/atlassian-ide-plugin.xml

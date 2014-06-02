@@ -1,0 +1,24 @@
+{
+    "name": "ideea/language-detector",
+    "description": "Detect languages by text",
+    "keywords": ["language", "detector", "language detector"],
+    "homepage": "https://github.com/ZhukV/LanguageDetector",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "ideea/unicode": "~1.0",
+        "symfony/yaml": "~2.2"
+    },
+
+    "autoload": {
+        "psr-0": { "Ideea\\LanguageDetector": "src/" }
+    }
+}
