@@ -36,7 +36,22 @@ class YamlLoader implements LoaderInterface
 
         foreach ($data as $language => $alphabetInfo) {
             $chars = Unicode::ordStr($alphabetInfo['chars']);
-            $alphabet = new Alphabet($language, $chars);
+
+            $commonCharCodes = array();
+            if (!empty($alphabetInfo['common_chars'])) {
+                $commonCharCodes = Unicode::ordStr($alphabetInfo['common_chars']);
+            }
+
+            $multipleCharsCodes = array();
+            if (!empty($alphabetInfo['multiple_chars'])) {
+                $multipleChars = explode(' ', $alphabetInfo['multiple_chars']);
+
+                foreach ($multipleChars as $multipleChar) {
+                    $multipleCharsCodes[] = Unicode::ordStr($multipleChar);
+                }
+            }
+
+            $alphabet = new Alphabet($language, $chars, $commonCharCodes, $multipleCharsCodes);
             $storage->add($alphabet);
         }
 

@@ -5,19 +5,19 @@ control-character:
 basic-latin:
     diap: [32, 127]
     type: alphabet
-    languages: [en, fi, it, es, sv, de, fr]
+    languages: [en, fi, it, es, sv, de, fr, hu, da, ga, lv, lt, mt, nl, pl, pt, ro, sk, cs, et, hr, sl]
 latin-1-supplement:
     diap: [128, 255]
     type: null
-    languages: [fi, it, es, sv, de, fr]
+    languages: [fi, it, es, sv, de, fr, hu, da, pl, pt, ro, sk, cs, et]
 latin-extended-A:
     diap: [256, 383]
     type: alphabet
-    languages: [fi, fr]
+    languages: [fi, fr, hu, lv, lt, mt, pl, ro, sk, cs, hr, sl]
 latin-extended-B:
     diap: [384, 591]
     type: alphabet
-    languages: null
+    languages: [ro]
 ipa-extensions:
     diap: [592, 687]
     type: alphabet
@@ -33,7 +33,7 @@ combining-diacritical-marks:
 greek-coptic:
     diap: [880, 1023]
     type: alphabet
-    languages: null
+    languages: [el]
 cyrillic:
     diap: [1024, 1279]
     type: alphabet

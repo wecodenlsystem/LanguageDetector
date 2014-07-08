@@ -48,13 +48,29 @@ Available languages for detection
 ---------------------------------
 
 * BG
+* CS
+* DA
 * DE
+* EL
 * EN
 * ES
+* ET
 * FI
 * FR
+* GA
+* HR
+* HU
 * IT
+* LT
+* LV
+* MT
+* NL
+* PL
+* PT
+* RO
 * RU
+* SK
+* SL
 * SV
 * UK
 

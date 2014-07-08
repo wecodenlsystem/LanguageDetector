@@ -61,7 +61,11 @@ class AlphabetVisitor implements VisitorInterface
         foreach ($codes as $code) {
             foreach ($checkAlphabets as $alphabet) {
                 if ($alphabet->hasChar($code)) {
-                    $languages->vote($alphabet->getLanguage());
+                    $languages->vote($alphabet->getLanguage(), 1);
+                }
+
+                if ($alphabet->hasCommonChar($code)) {
+                    $languages->vote($alphabet->getLanguage(), 0.5);
                 }
             }
         }

@@ -106,7 +106,6 @@ class LanguageDetector
             return $a['priority'] > $b['priority'] ? 1 : 0;
         });
 
-
         $this->sortedVisitors = array();
 
         foreach ($this->visitors as $visitorItem) {
@@ -139,7 +138,7 @@ class LanguageDetector
             ->addVisitor(new AlphabetVisitor($alphabets), -512);
 
         if ($dictionary) {
-            $detector->addVisitor(new DictionaryVisitor($dictionary));
+            $detector->addVisitor(new DictionaryVisitor($dictionary), -256);
         }
 
         return $detector;

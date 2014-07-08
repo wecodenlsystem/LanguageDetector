@@ -1,14 +1,31 @@
 bg:
     chars: "АаБбВвГгДдЕеЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЬьЮюЯя"
 
+cs:
+    chars: "AaÁáBbCcČčDdĎďEeÉéĚěFfGgHhIiÍíJjKkLlMmNnŇňOoÓóPpQqRrŘřSsŠšTtŤťUuÚúŮůVvWwXxYyÝýZzŽž"
+    multiple_chars: "Ch ch"
+
+da:
+    chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpRrSsTtUuVvXxYyÆæØøÅå"
+    common_chars: "QqWwZz"
+
 de:
     chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÄäÖöÜü"
+
+el:
+    chars: "ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
 
 en:
     chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 
 es:
-    chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnÑñOoPpQqRrSsTtUuVvWwXxYyZz"
+    chars: "AaBbCcDdEeFfGgHhIiJjLlMmNnÑñOoPpQqRrSsTtUuVvXxYyZz"
+    common_chars: "KkWw"
+    multiple_chars: "Ch ch Qu qu rr Ll ll Gu gu"
+
+et:
+    chars: "AaBbDdEeGgHhIiJjKkLlMmNnOoPpRrSsTtUuVvÕõÄäÖöÜü"
+    common_chars: "FfŠšZzŽžCcQqWwXxYy"
 
 fi:
     chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzŽžÅåÄäÖö"
@@ -16,11 +33,55 @@ fi:
 fr:
     chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÂâÀàÇçÉéÊêÈèËëÎîÏïÔôÛûÙùÜüŸÿ"
 
+ga:
+    chars: "AaBbCcDdEeFfGgHhIiLlMmNnOoPpRrSsTtUu"
+    common_chars: "JjQqVvWwXxZz"
+
+hr:
+    chars: "AaBbCcČčĆćDdĐđEeFfGgHhIiJjKkLlMmNnOoPpRrSsŠšTtUuVvZzŽž"
+    multiple_chars: "Dž dž Lj lj Nj nj"
+
+hu:
+    chars: "AaÁáBbCcDdEeÉéFfGgHhIiÍíJjKkLlMmNnOoÓóÖöŐőPpRrSsTtUuÚúÜüŰűVvZz"
+    common_chars: "QqWwXxYy"
+    multiple_chars: "Cs cs Dz dz Dzs dzs Gy gy Ly ly Ny ny Sz sz Ty ty Zs zs"
+
 it:
     chars: "AaBbCcDdEeFfGgHhIiLlMmNnOoPpQqRrSsTtUuVvZzàèéìíîòóùú"
 
+lt:
+    chars: "AaĄąBbCcČčDdEeĘęĖėFfGgHhIiĮįYyJjKkLlMmNnOoPpRrSsŠšTtUuŲųŪūVvZzŽž"
+
+lv:
+    chars: "AaĀāBbCcČčDdEeĒēFfGgĢģHhIiĪīJjKkĶķLlĻļMmNnŅņOoPpRrSsŠšTtUuŪūVvZzŽž"
+
+mt:
+    chars: "AaBbĊċDdEeFfĠġGgHĦħIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxZzŻż"
+    multiple_chars: "GĦ għ IE ie"
+
+nl:
+    chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+    multiple_chars: "IJ ij"
+
+pl:
+    chars: "AaĄąBbCcĆćDdEeĘęFfGgHhIiJjKkLlŁłMmNnŃńOoÓóPpRrSsŚśTtUuWwYyZzŹźŻż"
+
+pt:
+    chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÁáÂâÃãÀàÇçÉéÊêÍíÓóÔôÕõÚú"
+
+ro:
+    chars: "AaĂăÂâBbCcDdEeFfGgHhIiÎîJjKkLlMmNnOoPpQqRrSsȘșTtȚțUuVvWwXxYyZz"
+
 ru:
     chars: "АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя"
+
+sk:
+    chars: "AaÁáÄäBbCcČčDdĎďEeÉéFfGgHhIiÍíJjKkLlĹĺĽľMmNnŇňOoÓóÔôPpQqRrŔŕSsŠšTtŤťUuÚúVvWwXxYyÝýZzŽž"
+    multiple_chars: "Dz dz Dž dž Ch ch"
+
+sl:
+    chars: "AaBbCcČčDdEeFfGgHhIiJjKkLlMmNnOoPpRrSsŠšTtUuVvZzŽž"
+    multiple_chars: "Dž dž Lj lj Nj nj"
 
 sv:
     chars: "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÅåÄäÖö"

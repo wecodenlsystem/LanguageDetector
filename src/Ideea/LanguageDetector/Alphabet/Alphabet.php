@@ -31,15 +31,33 @@ class Alphabet implements \Serializable
     private $charCodes;
 
     /**
+     * Multiple char codes
+     *
+     * @var array
+     */
+    private $multipleCharCodes;
+
+    /**
+     * Common char codes
+     *
+     * @var array
+     */
+    private $commonCharCodes;
+
+    /**
      * Construct
      *
-     * @param string $language  Language identifier (ISO-639-1)
-     * @param array  $charCodes Alphabet char codes
+     * @param string $language
+     * @param array  $charCodes
+     * @param array  $commonCharCodes
+     * @param array  $multipleCharCodes
      */
-    public function __construct($language, array $charCodes)
+    public function __construct($language, array $charCodes, array $commonCharCodes, array $multipleCharCodes)
     {
         $this->language = $language;
         $this->charCodes = $charCodes;
+        $this->commonCharCodes = $commonCharCodes;
+        $this->multipleCharCodes = $multipleCharCodes;
     }
 
     /**
@@ -63,6 +81,26 @@ class Alphabet implements \Serializable
     }
 
     /**
+     * Get multiple char codes
+     *
+     * @return array
+     */
+    public function getMultipleCharCodes()
+    {
+        return $this->multipleCharCodes;
+    }
+
+    /**
+     * Get common char codes
+     *
+     * @return array
+     */
+    public function getCommonCharCodes()
+    {
+        return $this->commonCharCodes;
+    }
+
+    /**
      * Is alphabet has char code
      *
      * @param int $charCode
@@ -75,13 +113,27 @@ class Alphabet implements \Serializable
     }
 
     /**
+     * Is alphabet has common char code
+     *
+     * @param int $charCode
+     *
+     * @return bool
+     */
+    public function hasCommonChar($charCode)
+    {
+        return in_array($charCode, $this->commonCharCodes);
+    }
+
+    /**
      * {@inheritDoc}
      */
     public function serialize()
     {
         return serialize(array(
             $this->language,
-            $this->charCodes
+            $this->charCodes,
+            $this->multipleCharCodes,
+            $this->commonCharCodes
         ));
     }
 
@@ -90,6 +142,11 @@ class Alphabet implements \Serializable
      */
     public function unserialize($serialized)
     {
-        list ($this->language, $this->charCodes) = unserialize($serialized);
+        list (
+            $this->language,
+            $this->charCodes,
+            $this->multipleCharCodes,
+            $this->commonCharCodes
+        ) = unserialize($serialized);
     }
 }
