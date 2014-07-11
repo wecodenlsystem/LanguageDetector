@@ -14,7 +14,7 @@ namespace Ideea\LanguageDetector\Alphabet;
 /**
  * Alphabet storage
  */
-class Storage implements \Serializable
+class Storage implements \Serializable, \Countable
 {
     /**
      * @var array|Alphabet[]
@@ -84,6 +84,14 @@ class Storage implements \Serializable
         unset ($this->alphabets[$alphabet->getLanguage()]);
 
         return $this;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function count()
+    {
+        return count($this->alphabets);
     }
 
     /**

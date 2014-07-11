@@ -1,0 +1,7 @@
+en:
+    chars: "AaBbCc"
+
+es:
+    chars: "AaBbCc"
+    common_chars: "DdEe"
+    multiple_chars: "Ch ch Es es"
