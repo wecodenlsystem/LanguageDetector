@@ -44,8 +44,8 @@ class Util
             ));
         }
 
-        $sections = Yaml::parse($sectionsFile);
-        $alphabets = Yaml::parse($alphabetsFile);
+        $sections = Yaml::parse(file_get_contents($sectionsFile));
+        $alphabets = Yaml::parse(file_get_contents($alphabetsFile));
 
         if (!$sections || !$alphabets) {
             return;
@@ -98,7 +98,7 @@ class Util
             ));
         }
 
-        $sections = Yaml::parse($sectionsFile);
+        $sections = Yaml::parse(file_get_contents($sectionsFile));
 
         foreach ($sections as $section => $sectionInfo) {
             $sections[$section]['languages'] = null;
