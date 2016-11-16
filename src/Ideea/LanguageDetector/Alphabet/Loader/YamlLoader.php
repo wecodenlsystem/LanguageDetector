@@ -26,7 +26,7 @@ class YamlLoader implements LoaderInterface
      */
     public function load($path)
     {
-        $data = Yaml::parse($path);
+        $data = Yaml::parse(file_get_contents($path));
 
         $storage = new Storage();
 
